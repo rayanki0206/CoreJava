@@ -1,0 +1,28 @@
+package Sunday;
+
+public class ArrayProgram {
+	
+	public static void main(String[] args) {
+		
+		System.out.println("test");
+		
+		String[] str1= {"Vignesh", "haswanth", "Prasad", "Harsha"};
+		String[] str2= {"CodeBegun", "Prasad", "Harsha", "Vishnu"};
+		System.out.println(str2.length);
+		
+		for(int i=0;i<str1.length;i++) {
+			for(int j=0;j<str2.length;j++) {
+				System.out.println("test1");
+				if(str2[i].equals(str1[i])) {
+					System.out.println(str2[i]);
+				}
+			}
+			
+		}
+		
+	}
+	
+
+	
+
+}

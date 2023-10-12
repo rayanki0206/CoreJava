@@ -1,0 +1,26 @@
+package Sunday;
+
+public class Patterns {
+	
+	private static void pattern(int num) {
+		for(int x=0;x>=1;x--) {
+			for(int y=0;y<=x;y++) {
+				System.out.print("*");
+			}
+			System.out.println("");
+		}
+		for(int i=1;i<=num;i++) {
+			for(int j=0;j<=i;j++) {
+				System.out.print("*");
+			}
+			System.out.println("");
+		}
+		
+	}
+	
+	public static void main(String[] args) {
+		pattern(5);
+	}
+	
+
+}
