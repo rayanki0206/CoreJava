@@ -1,18 +1,19 @@
 import java.sql.Connection;
 import java.sql.DriverManager;
-import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.sql.Statement;
 import java.util.ArrayList;
 import java.util.List;
 
-public class JDBCInputMain {
+public class JDBCSelectionMain {
 	public static void main(String[] args) throws SQLException {
 		Connection connection=null;
 		Statement statement=null;
 		ResultSet resultset=null;
-		String dburl="jdbc:mysql://192.168.0.125:3306/vignesh";
+		
+//		String dburl="jdbc:mysql://192.168.0.125:3306/vignesh";
+		String dburl="jdbc:mysql://192.168.29.128:3306/vignesh";
 		String username="root";
 		String password="rootroot";
 		String query="select*from student";

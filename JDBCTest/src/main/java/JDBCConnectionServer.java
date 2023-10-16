@@ -4,7 +4,7 @@ import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.sql.Statement;
 
-public class JDBCConnection {
+public class JDBCConnectionServer {
 	public static void main(String[] args) throws SQLException{
 		Connection connection=null;
 		Statement statement=null;
