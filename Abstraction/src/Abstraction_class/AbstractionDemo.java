@@ -5,6 +5,7 @@ abstract class Bike{
 	
 	void suzuki() {
 		System.out.println("Suzuki bike is running");
+		
 	}
 }
 
